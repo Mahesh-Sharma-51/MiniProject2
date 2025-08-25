@@ -1,129 +1,91 @@
-MiniProject1 – Online Journal (Frontend)
+🎮 Assassino – 2D Platformer Game
 
-A sleek, responsive frontend interface for an Online Journal with multiple pages emphasizing usability, accessibility, and visual appeal. Built using HTML, CSS, and JavaScript.
+Assassino is a 2D platformer game built with the Unity Engine. Players take on the role of a skilled assassin navigating through challenging levels filled with obstacles, enemies, and traps. The game emphasizes fast-paced movement, precision jumps, and immersive gameplay mechanics.
 
-Pages Overview & UI Highlights
-1. Home Page (index.html)
+✨ Features
 
-Hero section with journal branding: Eye-catching logo and background design.
+🕹 Classic 2D Platformer Mechanics – Jump, run, and navigate diverse levels.
 
-Clean navigation bar: Links to features, about, login, and more.
+⚔️ Enemy Encounters – Avoid or eliminate enemies strategically.
 
-Intuitive layout: Welcoming design with engaging visuals for a great first impression.
+🎨 Pixel-style or custom art assets for an engaging visual experience.
 
-2. Features Page (features.html)
+🔊 Sound effects & background music to enhance immersion.
 
-Cards or sections showcasing key features of the journal.
+🧩 Challenging Levels – Progressive difficulty keeps players engaged.
 
-Interactive elements like hover animations or dynamic JavaScript enhancements.
+🖼️ Gameplay Preview
 
-Organized layout providing clear feature descriptions with visual flair.
+(Add screenshots or GIFs here once available)
 
-3. About Page (about.html)
+![Gameplay Screenshot](images/screenshot1.png)
+![Level Preview](images/screenshot2.png)
 
-Storytelling-focused design: Text layout balanced with images or icons.
+🛠️ Tech Stack
 
-Readable typography and spacing for comfortable reading.
+Engine: Unity (2D mode)
 
-Consistent visual theme aligned with the overall site design.
+Language: C# (for game scripts)
 
-4. User Authentication (login.html & reg.html)
+Assets: Unity Asset Store / Custom Sprites / Free2D Assets (as applicable)
 
-Clean login form with modern inputs and eye-icon toggles for password visibility.
+🚀 Getting Started
+1. Clone the Repository
+git clone https://github.com/Mahesh-Sharma-51/MiniProject2.git
 
-Registration form with user-friendly inputs, validations, and matching visual style.
+2. Open in Unity
 
-Password visibility toggle (eye icon): Improves user experience and accessibility.
+Launch Unity Hub.
 
-5. Legal & Policy Pages (privacy.html & terms.html)
+Open the project folder (MiniProject2).
 
-Readable formatting: Clear, well-structured legal content.
+Make sure to use the same Unity version the project was created in (recommended: LTS release).
 
-Consistent UI: Matches navigation and styling from the rest of the site.
+3. Play the Game
 
-Easy navigation: Links to and from privacy/Terms pages accessible from the footer.
+Open the MainScene (or starting scene).
 
-Project Structure
-MiniProject1/
-├── index.html
-├── features.html
-├── about.html
-├── login.html          # Login page with password visibility toggle
-├── reg.html            # Registration page with similar UI
-├── privacy.html
-├── terms.html
-├── style.css           # General styling
-├── features.css
-├── about.css
-├── login.css
-├── reg.css
-├── privacy.css
-├── terms.css
-├── app.js              # Global scripts
-├── features.js
-├── about.js
-├── login.js
-├── reg.js
-├── privacy.js
-├── terms.js
-├── images/             # Visual assets: logo, backgrounds, icons
-│   ├── logo.jpg.jpg
-│   ├── background.jpg
-│   ├── accessiblity-cloud.png.png
-│   ├── creativity-doodle.png.jpg
-│   └── others...
-└── README.md           # Project documentation
+Press ▶️ Play in the Unity Editor.
 
-UI Design Elements
+🎮 Controls
 
-Visual consistency with cohesive color schemes, typography, and layout.
+⬅️➡️ Arrow Keys / A-D → Move left/right
 
-Interactive elements like smooth transitions, button hovers, and password toggles.
+⬆️ Arrow Up / W / Space → Jump
 
-Responsive layout (assuming defaults or your own media queries for different screen sizes).
+(Optional: ⚔️ Key / Mouse Button → Attack, if implemented)
 
-Accessibility-focused features like visible password toggles, clear navigation, and legible text.
+📂 Project Structure
+MiniProject2/
+│── Assets/
+│   ├── Scripts/         # Game scripts (C#)
+│   ├── Sprites/         # Visual assets
+│   ├── Scenes/          # Unity scenes
+│   ├── Audio/           # Sounds & music
+│── ProjectSettings/
+│── Packages/
+└── README.md
 
-Getting Started
+🔮 Future Improvements
 
-Clone the repository
+Add boss fights and unique enemy types.
 
-git clone https://github.com/Mahesh-Sharma-51/MiniProject1.git
+Implement power-ups and abilities.
 
+Expand to multiple worlds/levels.
 
-Navigate to the folder
+Add save/load system for progress.
 
-cd MiniProject1
+🤝 Contributing
 
+Contributions, feedback, and suggestions are welcome!
 
-Open in browser
-
-Launch index.html (or any other page) in your preferred web browser to explore the UI.
-
-Future Enhancements
-
-Implement dynamic journal content loading (e.g., fetch entries via API).
-
-Add dark mode toggle with theme-switching capabilities.
-
-Incorporate responsive breakpoints with CSS media queries.
-
-Enhance form validation UX for login/registration experience.
-
-Contributing
-
-Improvements are welcome! Whether it’s UI tweaks, accessibility upgrades, or feature enhancements:
-
-Fork the repo
+Fork this repo
 
 Create a new branch
 
-Submit a pull request with your changes
+Submit a pull request
 
-License
+📜 License
 
-(Choose a license, e.g., MIT or whichever you prefer)
-
-MIT License
-Copyright (c) 2025 Mahesh Sharma
-...
+This project is licensed under the MIT License – free to use, modify, and distribute.
